@@ -1,4 +1,4 @@
-一、    集成步骤\n
+一、    集成步骤  
     1、SDK文件直接拉入工程
     2、点击工程->Build Phases -> Copy Bundle Resources 添加KL_JJZXLWaterSDK.framework
     3、点击工程->Build Settings 搜索Enable Bitcode 功能设置为NO
