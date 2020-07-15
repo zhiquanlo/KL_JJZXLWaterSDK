@@ -1,10 +1,7 @@
-一、    集成步骤
+一、    集成步骤\n
     1、SDK文件直接拉入工程
-     ￼
     2、点击工程->Build Phases -> Copy Bundle Resources 添加KL_JJZXLWaterSDK.framework
-￼
     3、点击工程->Build Settings 搜索Enable Bitcode 功能设置为NO
-    ￼
     4、info.plist配置权限
     Privacy - Camera Usage Description 相机权限扫码需要
     Privacy - Bluetooth Peripheral Usage Description 蓝牙权限
