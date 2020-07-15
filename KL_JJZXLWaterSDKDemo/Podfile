@@ -1,0 +1,17 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '9.0'
+inhibit_all_warnings!
+
+target 'KL_JJZXLWaterSDKDemo' do
+pod 'AFNetworking','~> 4.0.1'
+pod 'FMDB', '~> 2.6.2'
+pod 'MBProgressHUD', '~> 0.9.2'
+pod 'YYModel', '~> 1.0.4'
+pod 'KVOController', '~> 1.2.0'
+pod 'SDWebImage', '~> 3.7.5'
+pod 'MQTTClient'
+pod 'YYImage'
+pod 'SDKQZNetworkOffline','~> 1.1.4'
+pod 'DateTools', '~> 2.0.0'
+end
+

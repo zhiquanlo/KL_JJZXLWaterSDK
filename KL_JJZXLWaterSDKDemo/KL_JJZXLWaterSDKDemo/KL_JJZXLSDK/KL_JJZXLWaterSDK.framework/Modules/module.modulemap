@@ -1,0 +1,6 @@
+framework module KL_JJZXLWaterSDK {
+  umbrella header "KL_JJZXLWaterSDK.h"
+
+  export *
+  module * { export * }
+}

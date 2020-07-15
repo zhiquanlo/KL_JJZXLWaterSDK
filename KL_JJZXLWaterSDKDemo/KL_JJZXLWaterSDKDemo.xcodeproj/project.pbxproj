@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		457F5E3C24BE96CA000C4959 /* KL_JJZXLWaterSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 457F5E3B24BE96CA000C4959 /* KL_JJZXLWaterSDK.framework */; };
+		457F5E3D24BE9726000C4959 /* KL_JJZXLWaterSDK.framework in Resources */ = {isa = PBXBuildFile; fileRef = 457F5E3B24BE96CA000C4959 /* KL_JJZXLWaterSDK.framework */; };
+		45C2C2BD24BC8A6D0092824A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C2C2BC24BC8A6D0092824A /* AppDelegate.m */; };
+		45C2C2C324BC8A6D0092824A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C2C2C224BC8A6D0092824A /* ViewController.m */; };
+		45C2C2C624BC8A6D0092824A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45C2C2C424BC8A6D0092824A /* Main.storyboard */; };
+		45C2C2C824BC8A710092824A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45C2C2C724BC8A710092824A /* Assets.xcassets */; };
+		45C2C2CB24BC8A710092824A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45C2C2C924BC8A710092824A /* LaunchScreen.storyboard */; };
+		45C2C2CE24BC8A710092824A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C2C2CD24BC8A710092824A /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2321EF53CCFE391F7AE4F240 /* Pods-KL_JJZXLWaterSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KL_JJZXLWaterSDKDemo.debug.xcconfig"; path = "Target Support Files/Pods-KL_JJZXLWaterSDKDemo/Pods-KL_JJZXLWaterSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		457F5E3B24BE96CA000C4959 /* KL_JJZXLWaterSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KL_JJZXLWaterSDK.framework; sourceTree = "<group>"; };
+		45C2C2B824BC8A6D0092824A /* KL_JJZXLWaterSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KL_JJZXLWaterSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45C2C2BB24BC8A6D0092824A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		45C2C2BC24BC8A6D0092824A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		45C2C2C124BC8A6D0092824A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		45C2C2C224BC8A6D0092824A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		45C2C2C524BC8A6D0092824A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		45C2C2C724BC8A710092824A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45C2C2CA24BC8A710092824A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		45C2C2CC24BC8A710092824A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45C2C2CD24BC8A710092824A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		915635117BEDD7EBCAC6ABE6 /* Pods-KL_JJZXLWaterSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KL_JJZXLWaterSDKDemo.release.xcconfig"; path = "Target Support Files/Pods-KL_JJZXLWaterSDKDemo/Pods-KL_JJZXLWaterSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45C2C2B524BC8A6D0092824A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				457F5E3C24BE96CA000C4959 /* KL_JJZXLWaterSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4555198D24BDB29200A693B0 /* KL_JJZXLSDK */ = {
+			isa = PBXGroup;
+			children = (
+				457F5E3B24BE96CA000C4959 /* KL_JJZXLWaterSDK.framework */,
+			);
+			path = KL_JJZXLSDK;
+			sourceTree = "<group>";
+		};
+		45C2C2AF24BC8A6D0092824A = {
+			isa = PBXGroup;
+			children = (
+				45C2C2BA24BC8A6D0092824A /* KL_JJZXLWaterSDKDemo */,
+				45C2C2B924BC8A6D0092824A /* Products */,
+				96086D300633C2EC15D65607 /* Pods */,
+				A92AA2E71AE664FB3A40AD28 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		45C2C2B924BC8A6D0092824A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45C2C2B824BC8A6D0092824A /* KL_JJZXLWaterSDKDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45C2C2BA24BC8A6D0092824A /* KL_JJZXLWaterSDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4555198D24BDB29200A693B0 /* KL_JJZXLSDK */,
+				45C2C2BB24BC8A6D0092824A /* AppDelegate.h */,
+				45C2C2BC24BC8A6D0092824A /* AppDelegate.m */,
+				45C2C2C124BC8A6D0092824A /* ViewController.h */,
+				45C2C2C224BC8A6D0092824A /* ViewController.m */,
+				45C2C2C424BC8A6D0092824A /* Main.storyboard */,
+				45C2C2C724BC8A710092824A /* Assets.xcassets */,
+				45C2C2C924BC8A710092824A /* LaunchScreen.storyboard */,
+				45C2C2CC24BC8A710092824A /* Info.plist */,
+				45C2C2CD24BC8A710092824A /* main.m */,
+			);
+			path = KL_JJZXLWaterSDKDemo;
+			sourceTree = "<group>";
+		};
+		96086D300633C2EC15D65607 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2321EF53CCFE391F7AE4F240 /* Pods-KL_JJZXLWaterSDKDemo.debug.xcconfig */,
+				915635117BEDD7EBCAC6ABE6 /* Pods-KL_JJZXLWaterSDKDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A92AA2E71AE664FB3A40AD28 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45C2C2B724BC8A6D0092824A /* KL_JJZXLWaterSDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45C2C2D124BC8A710092824A /* Build configuration list for PBXNativeTarget "KL_JJZXLWaterSDKDemo" */;
+			buildPhases = (
+				D5D25BA2CB3AEDDCFB21FCBB /* [CP] Check Pods Manifest.lock */,
+				45C2C2B424BC8A6D0092824A /* Sources */,
+				45C2C2B524BC8A6D0092824A /* Frameworks */,
+				45C2C2B624BC8A6D0092824A /* Resources */,
+				7ED00CDF065E321647A13088 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KL_JJZXLWaterSDKDemo;
+			productName = KL_JJZXLWaterSDKDemo;
+			productReference = 45C2C2B824BC8A6D0092824A /* KL_JJZXLWaterSDKDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45C2C2B024BC8A6D0092824A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = kailu;
+				TargetAttributes = {
+					45C2C2B724BC8A6D0092824A = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 45C2C2B324BC8A6D0092824A /* Build configuration list for PBXProject "KL_JJZXLWaterSDKDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45C2C2AF24BC8A6D0092824A;
+			productRefGroup = 45C2C2B924BC8A6D0092824A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45C2C2B724BC8A6D0092824A /* KL_JJZXLWaterSDKDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45C2C2B624BC8A6D0092824A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				457F5E3D24BE9726000C4959 /* KL_JJZXLWaterSDK.framework in Resources */,
+				45C2C2CB24BC8A710092824A /* LaunchScreen.storyboard in Resources */,
+				45C2C2C824BC8A710092824A /* Assets.xcassets in Resources */,
+				45C2C2C624BC8A6D0092824A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7ED00CDF065E321647A13088 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KL_JJZXLWaterSDKDemo/Pods-KL_JJZXLWaterSDKDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KL_JJZXLWaterSDKDemo/Pods-KL_JJZXLWaterSDKDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KL_JJZXLWaterSDKDemo/Pods-KL_JJZXLWaterSDKDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5D25BA2CB3AEDDCFB21FCBB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KL_JJZXLWaterSDKDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45C2C2B424BC8A6D0092824A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45C2C2C324BC8A6D0092824A /* ViewController.m in Sources */,
+				45C2C2BD24BC8A6D0092824A /* AppDelegate.m in Sources */,
+				45C2C2CE24BC8A710092824A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		45C2C2C424BC8A6D0092824A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45C2C2C524BC8A6D0092824A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		45C2C2C924BC8A710092824A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45C2C2CA24BC8A710092824A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45C2C2CF24BC8A710092824A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		45C2C2D024BC8A710092824A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45C2C2D224BC8A710092824A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2321EF53CCFE391F7AE4F240 /* Pods-KL_JJZXLWaterSDKDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EW8ZUEJWK8;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KL_JJZXLWaterSDKDemo/KL_JJZXLSDK",
+				);
+				INFOPLIST_FILE = KL_JJZXLWaterSDKDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"AFNetworking\"",
+					"-l\"DateTools\"",
+					"-l\"FMDB\"",
+					"-l\"KVOController\"",
+					"-l\"MBProgressHUD\"",
+					"-l\"MQTTClient\"",
+					"-l\"SDWebImage\"",
+					"-l\"YYImage\"",
+					"-l\"YYModel\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"AssetsLibrary\"",
+					"-framework",
+					"\"CoreFoundation\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"QZNOSDK\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"UIKit\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kailu.KL-JJZXLWaterSDKDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45C2C2D324BC8A710092824A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 915635117BEDD7EBCAC6ABE6 /* Pods-KL_JJZXLWaterSDKDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EW8ZUEJWK8;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KL_JJZXLWaterSDKDemo/KL_JJZXLSDK",
+				);
+				INFOPLIST_FILE = KL_JJZXLWaterSDKDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"AFNetworking\"",
+					"-l\"DateTools\"",
+					"-l\"FMDB\"",
+					"-l\"KVOController\"",
+					"-l\"MBProgressHUD\"",
+					"-l\"MQTTClient\"",
+					"-l\"SDWebImage\"",
+					"-l\"YYImage\"",
+					"-l\"YYModel\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"AssetsLibrary\"",
+					"-framework",
+					"\"CoreFoundation\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"QZNOSDK\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"UIKit\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kailu.KL-JJZXLWaterSDKDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45C2C2B324BC8A6D0092824A /* Build configuration list for PBXProject "KL_JJZXLWaterSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45C2C2CF24BC8A710092824A /* Debug */,
+				45C2C2D024BC8A710092824A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45C2C2D124BC8A710092824A /* Build configuration list for PBXNativeTarget "KL_JJZXLWaterSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45C2C2D224BC8A710092824A /* Debug */,
+				45C2C2D324BC8A710092824A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45C2C2B024BC8A6D0092824A /* Project object */;
+}
