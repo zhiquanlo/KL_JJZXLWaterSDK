@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		457F5E3C24BE96CA000C4959 /* KL_JJZXLWaterSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 457F5E3B24BE96CA000C4959 /* KL_JJZXLWaterSDK.framework */; };
-		457F5E3D24BE9726000C4959 /* KL_JJZXLWaterSDK.framework in Resources */ = {isa = PBXBuildFile; fileRef = 457F5E3B24BE96CA000C4959 /* KL_JJZXLWaterSDK.framework */; };
+		458F20D724C1529600B062BF /* KL_JJZXLWaterSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 458F20D524C1529600B062BF /* KL_JJZXLWaterSDKResources.bundle */; };
+		458F20D824C1529600B062BF /* KL_JJZXLWaterSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 458F20D624C1529600B062BF /* KL_JJZXLWaterSDK.framework */; };
 		45C2C2BD24BC8A6D0092824A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C2C2BC24BC8A6D0092824A /* AppDelegate.m */; };
 		45C2C2C324BC8A6D0092824A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C2C2C224BC8A6D0092824A /* ViewController.m */; };
 		45C2C2C624BC8A6D0092824A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45C2C2C424BC8A6D0092824A /* Main.storyboard */; };
@@ -19,7 +19,8 @@
 
 /* Begin PBXFileReference section */
 		2321EF53CCFE391F7AE4F240 /* Pods-KL_JJZXLWaterSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KL_JJZXLWaterSDKDemo.debug.xcconfig"; path = "Target Support Files/Pods-KL_JJZXLWaterSDKDemo/Pods-KL_JJZXLWaterSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		457F5E3B24BE96CA000C4959 /* KL_JJZXLWaterSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KL_JJZXLWaterSDK.framework; sourceTree = "<group>"; };
+		458F20D524C1529600B062BF /* KL_JJZXLWaterSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = KL_JJZXLWaterSDKResources.bundle; sourceTree = "<group>"; };
+		458F20D624C1529600B062BF /* KL_JJZXLWaterSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KL_JJZXLWaterSDK.framework; sourceTree = "<group>"; };
 		45C2C2B824BC8A6D0092824A /* KL_JJZXLWaterSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KL_JJZXLWaterSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45C2C2BB24BC8A6D0092824A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		45C2C2BC24BC8A6D0092824A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -38,7 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				457F5E3C24BE96CA000C4959 /* KL_JJZXLWaterSDK.framework in Frameworks */,
+				458F20D824C1529600B062BF /* KL_JJZXLWaterSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,7 +49,8 @@
 		4555198D24BDB29200A693B0 /* KL_JJZXLSDK */ = {
 			isa = PBXGroup;
 			children = (
-				457F5E3B24BE96CA000C4959 /* KL_JJZXLWaterSDK.framework */,
+				458F20D624C1529600B062BF /* KL_JJZXLWaterSDK.framework */,
+				458F20D524C1529600B062BF /* KL_JJZXLWaterSDKResources.bundle */,
 			);
 			path = KL_JJZXLSDK;
 			sourceTree = "<group>";
@@ -163,7 +165,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				457F5E3D24BE9726000C4959 /* KL_JJZXLWaterSDK.framework in Resources */,
+				458F20D724C1529600B062BF /* KL_JJZXLWaterSDKResources.bundle in Resources */,
 				45C2C2CB24BC8A710092824A /* LaunchScreen.storyboard in Resources */,
 				45C2C2C824BC8A710092824A /* Assets.xcassets in Resources */,
 				45C2C2C624BC8A6D0092824A /* Main.storyboard in Resources */,
@@ -411,6 +413,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "kailu.KL-JJZXLWaterSDKDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -469,6 +472,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "kailu.KL-JJZXLWaterSDKDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

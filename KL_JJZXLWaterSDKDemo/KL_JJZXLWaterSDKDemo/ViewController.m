@@ -39,16 +39,28 @@
 
 /// 洗衣机
 - (IBAction)washer:(id)sender {
-     [KL_JJZXLWaterApi useDevicePresentBUROVC:self devType:2 IPAddress:IPADDRESS telPhone:TEIPHONE adsDic:@{@"adsImgUrl":@"https://pics6.baidu.com/feed/a1ec08fa513d26979530951f8f9956fd4216d87f.jpeg?token=78bae1977a94af24a6fc15325fcd57f0"}];
+     NSDictionary *adsDic = @{
+     @"usingAds":@{@"adsImgUrl":@"https://pics6.baidu.com/feed/a1ec08fa513d26979530951f8f9956fd4216d87f.jpeg?token=78bae1977a94af24a6fc15325fcd57f0"},
+     @"finishAds":@{@"adsImgUrl":@"https://pics6.baidu.com/feed/a1ec08fa513d26979530951f8f9956fd4216d87f.jpeg?token=78bae1977a94af24a6fc15325fcd57f0"}
+     };
+     [KL_JJZXLWaterApi useDevicePresentBUROVC:self devType:2 IPAddress:IPADDRESS telPhone:TEIPHONE adsDic:adsDic];
 }
 
 /// 洗澡
 - (IBAction)bath:(id)sender {
-    [KL_JJZXLWaterApi useDevicePresentBUROVC:self devType:0 IPAddress:IPADDRESS telPhone:TEIPHONE adsDic:@{@"adsImgUrl":@"https://pics6.baidu.com/feed/a1ec08fa513d26979530951f8f9956fd4216d87f.jpeg?token=78bae1977a94af24a6fc15325fcd57f0"}];
+    NSDictionary *adsDic = @{
+    @"usingAds":@{@"adsImgUrl":@"https://pics6.baidu.com/feed/a1ec08fa513d26979530951f8f9956fd4216d87f.jpeg?token=78bae1977a94af24a6fc15325fcd57f0"},
+    @"finishAds":@{@"adsImgUrl":@"https://pics6.baidu.com/feed/a1ec08fa513d26979530951f8f9956fd4216d87f.jpeg?token=78bae1977a94af24a6fc15325fcd57f0"}
+    };
+    [KL_JJZXLWaterApi useDevicePresentBUROVC:self devType:0 IPAddress:IPADDRESS telPhone:TEIPHONE adsDic:adsDic];
 }
 
 /// 饮水
 - (IBAction)drinkWater:(id)sender {
-    [KL_JJZXLWaterApi useDevicePresentBUROVC:self devType:3 IPAddress:IPADDRESS telPhone:TEIPHONE adsDic:@{@"adsImgUrl":@"https://pics6.baidu.com/feed/a1ec08fa513d26979530951f8f9956fd4216d87f.jpeg?token=78bae1977a94af24a6fc15325fcd57f0"}];
+    NSDictionary *adsDic = @{
+    @"usingAds":@{@"adsImgUrl":@"https://pics6.baidu.com/feed/a1ec08fa513d26979530951f8f9956fd4216d87f.jpeg?token=78bae1977a94af24a6fc15325fcd57f0"},
+    @"finishAds":@{@"adsImgUrl":@"https://pics6.baidu.com/feed/a1ec08fa513d26979530951f8f9956fd4216d87f.jpeg?token=78bae1977a94af24a6fc15325fcd57f0"}
+    };
+    [KL_JJZXLWaterApi useDevicePresentBUROVC:self devType:3 IPAddress:IPADDRESS telPhone:TEIPHONE adsDic:adsDic];
 }
 @end
