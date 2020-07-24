@@ -18,8 +18,9 @@
  @param IPAddress 服务器地址
  @param telPhone 账号
  @param adsDic   广告信息
+ @param mchId   mchId
  */
-+(void)useDevicePresentBUROVC:(UIViewController *)jumpVC devType:(NSInteger)devType IPAddress:(NSString *)IPAddress telPhone:(NSString *)telPhone adsDic:(NSDictionary *)adsDic;
++(void)useDevicePresentBUROVC:(UIViewController *)jumpVC devType:(NSInteger)devType IPAddress:(NSString *)IPAddress telPhone:(NSString *)telPhone adsDic:(NSDictionary *)adsDic mchId:(NSNumber *)mchId;
 
 /// 监听广告点击回调
 /// @param clickAdsCallBack 回调事件 adsDic广告信息

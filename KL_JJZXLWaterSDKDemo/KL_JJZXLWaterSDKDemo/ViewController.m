@@ -43,7 +43,7 @@
      @"usingAds":@{@"adsImgUrl":@"https://pics6.baidu.com/feed/a1ec08fa513d26979530951f8f9956fd4216d87f.jpeg?token=78bae1977a94af24a6fc15325fcd57f0"},
      @"finishAds":@{@"adsImgUrl":@"https://pics6.baidu.com/feed/a1ec08fa513d26979530951f8f9956fd4216d87f.jpeg?token=78bae1977a94af24a6fc15325fcd57f0"}
      };
-     [KL_JJZXLWaterApi useDevicePresentBUROVC:self devType:2 IPAddress:IPADDRESS telPhone:TEIPHONE adsDic:adsDic];
+     [KL_JJZXLWaterApi useDevicePresentBUROVC:self devType:2 IPAddress:IPADDRESS telPhone:TEIPHONE adsDic:adsDic mchId:@1074];
 }
 
 /// 洗澡
@@ -52,7 +52,7 @@
     @"usingAds":@{@"adsImgUrl":@"https://pics6.baidu.com/feed/a1ec08fa513d26979530951f8f9956fd4216d87f.jpeg?token=78bae1977a94af24a6fc15325fcd57f0"},
     @"finishAds":@{@"adsImgUrl":@"https://pics6.baidu.com/feed/a1ec08fa513d26979530951f8f9956fd4216d87f.jpeg?token=78bae1977a94af24a6fc15325fcd57f0"}
     };
-    [KL_JJZXLWaterApi useDevicePresentBUROVC:self devType:0 IPAddress:IPADDRESS telPhone:TEIPHONE adsDic:adsDic];
+    [KL_JJZXLWaterApi useDevicePresentBUROVC:self devType:0 IPAddress:IPADDRESS telPhone:TEIPHONE adsDic:adsDic mchId:@1074];
 }
 
 /// 饮水
@@ -61,6 +61,6 @@
     @"usingAds":@{@"adsImgUrl":@"https://pics6.baidu.com/feed/a1ec08fa513d26979530951f8f9956fd4216d87f.jpeg?token=78bae1977a94af24a6fc15325fcd57f0"},
     @"finishAds":@{@"adsImgUrl":@"https://pics6.baidu.com/feed/a1ec08fa513d26979530951f8f9956fd4216d87f.jpeg?token=78bae1977a94af24a6fc15325fcd57f0"}
     };
-    [KL_JJZXLWaterApi useDevicePresentBUROVC:self devType:3 IPAddress:IPADDRESS telPhone:TEIPHONE adsDic:adsDic];
+    [KL_JJZXLWaterApi useDevicePresentBUROVC:self devType:3 IPAddress:IPADDRESS telPhone:TEIPHONE adsDic:adsDic mchId:@1074];
 }
 @end
