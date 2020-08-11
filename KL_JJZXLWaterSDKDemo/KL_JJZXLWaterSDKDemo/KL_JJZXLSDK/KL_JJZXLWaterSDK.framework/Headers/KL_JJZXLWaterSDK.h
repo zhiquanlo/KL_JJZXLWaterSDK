@@ -11,24 +11,21 @@
 
 
 @interface KL_JJZXLWaterApi : NSObject
-/**
- SDK 操作
- @param jumpVC      跳转控制器
- @param devType 0洗澡，3饮水，2洗衣服
- @param IPAddress 服务器地址
- @param telPhone 账号
- @param adsDic   广告信息
- @param mchId   mchId
- */
-+(void)useDevicePresentBUROVC:(UIViewController *)jumpVC devType:(NSInteger)devType IPAddress:(NSString *)IPAddress telPhone:(NSString *)telPhone adsDic:(NSDictionary *)adsDic mchId:(NSNumber *)mchId;
 
-/// 监听广告点击回调
-/// @param clickAdsCallBack 回调事件 adsDic广告信息
-+(void)clickAdsCallBack:(void(^)(NSDictionary *adsDic))clickAdsCallBack;
+
+/// SDK 操作
+/// @param jumpVC 跳转控制器
+/// @param devType  0洗澡，3饮水，2洗衣服
+/// @param IPAddress 服务器地址
+/// @param telPhone 账号
+/// @param mchId mchId
+/// @param getAdsViewCallBack position 0 = 使用中 1 = 订单完成 deviceType  固定值：0公寓洗澡，2洗衣服，3饮水
++(void)useDevicePresentBUROVC:(UIViewController *)jumpVC devType:(NSInteger)devType IPAddress:(NSString *)IPAddress telPhone:(NSString *)telPhone mchId:(NSNumber *)mchId getAdsViewCallBack:(UIView*(^)(NSInteger position, NSInteger deviceType))getAdsViewCallBack;
 
 /// 凯路sdk调用智校乐客户端支付
 /// @param callBack  isPayEnough固定值：0-余额不足，1-余额充足  deviceType 固定值：0公寓洗澡，2洗衣服，3饮水
 +(void)getPayCallBack:(void(^)(NSInteger isPayEnough, NSInteger deviceType))callBack;
+
 /// 充值支付成功通知SDK
 +(void)rechargePaySuccessful;
 
