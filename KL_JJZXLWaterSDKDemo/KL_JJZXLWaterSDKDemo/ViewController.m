@@ -36,22 +36,28 @@
 
 /// 洗衣机
 - (IBAction)washer:(id)sender {
-     [KL_JJZXLWaterApi useDevicePresentBUROVC:self devType:2 IPAddress:IPADDRESS telPhone:TEIPHONE mchId:@1074 getAdsViewCallBack:^UIView *(NSInteger position, NSInteger deviceType) {
-         return [UIView new];
-     }];
+    [KL_JJZXLWaterApi useDevicePresentBUROVC:self devType:2 IPAddress:IPADDRESS telPhone:TEIPHONE mchId:@1074 getAdsViewCallBack:^(UIView *controllerView, NSInteger position, NSInteger deviceType) {
+        UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 100, 40, 40)];
+        view.backgroundColor = [UIColor redColor];
+        [controllerView addSubview:view];
+    }];
 }
 
 /// 洗澡
 - (IBAction)bath:(id)sender {
-    [KL_JJZXLWaterApi useDevicePresentBUROVC:self devType:0 IPAddress:IPADDRESS telPhone:TEIPHONE mchId:@1074 getAdsViewCallBack:^UIView *(NSInteger position, NSInteger deviceType) {
-        return [UIView new];
+    [KL_JJZXLWaterApi useDevicePresentBUROVC:self devType:0 IPAddress:IPADDRESS telPhone:TEIPHONE mchId:@1074 getAdsViewCallBack:^(UIView *controllerView, NSInteger position, NSInteger deviceType) {
+        UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 100, 40, 40)];
+        view.backgroundColor = [UIColor redColor];
+        [controllerView addSubview:view];
     }];
 }
 
 /// 饮水
 - (IBAction)drinkWater:(id)sender {
-    [KL_JJZXLWaterApi useDevicePresentBUROVC:self devType:3 IPAddress:IPADDRESS telPhone:TEIPHONE  mchId:@1074 getAdsViewCallBack:^UIView *(NSInteger position, NSInteger deviceType) {
-        return [UIView new];
+    [KL_JJZXLWaterApi useDevicePresentBUROVC:self devType:3 IPAddress:IPADDRESS telPhone:TEIPHONE  mchId:@1074 getAdsViewCallBack:^(UIView *controllerView, NSInteger position, NSInteger deviceType) {
+        UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 100, 40, 40)];
+        view.backgroundColor = [UIColor redColor];
+        [controllerView addSubview:view];
     }];
 }
 @end

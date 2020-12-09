@@ -20,15 +20,14 @@
       注意不要跟自己工程里面同样的库造成冲突，如果出现冲突和工程的库二选一。  
 二、方法调用  
 导入#import <KL_JJZXLWaterSDK/KL_JJZXLWaterSDK.h>  
-/**  
- SDK 操作  
- @param jumpVC      跳转控制器  
- @param devType 0洗澡，3饮水，2洗衣服  
- @param IPAddress 服务器地址  
- @param telPhone 账号  
- @param adsDic   广告信息  
- */  
-+(void)useDevicePresentBUROVC:(UIViewController *)jumpVC devType:(NSInteger)devType IPAddress:(NSString *)IPAddress telPhone:(NSString *)telPhone adsDic:(NSDictionary *)adsDic;  
+/// SDK 操作
+/// @param jumpVC 跳转控制器
+/// @param devType  0洗澡，3饮水，2洗衣服
+/// @param IPAddress 服务器地址
+/// @param telPhone 账号
+/// @param mchId mchId
+/// @param getAdsViewCallBack controllerView当前控制的view   position 0 = 使用中 1 = 订单完成 deviceType  固定值：0公寓洗澡，2洗衣服，3饮水
++(void)useDevicePresentBUROVC:(UIViewController *)jumpVC devType:(NSInteger)devType IPAddress:(NSString *)IPAddress telPhone:(NSString *)telPhone mchId:(NSNumber *)mchId getAdsViewCallBack:(void(^)(UIView *controllerView,NSInteger position, NSInteger deviceType))getAdsViewCallBack;
 
 /// 监听广告点击回调  
 /// @param clickAdsCallBack 回调事件 adsDic广告信息  
