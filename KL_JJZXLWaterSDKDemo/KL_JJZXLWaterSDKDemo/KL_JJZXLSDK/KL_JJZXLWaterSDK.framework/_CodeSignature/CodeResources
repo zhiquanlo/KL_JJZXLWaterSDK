@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		7FOGueifVrDF91KxLim0pqxDIfw=
+		kptfrqeTOfL5qpt0vv851GtPo6s=
 		</data>
 		<key>DateTools.bundle/am.lproj/DateTools.strings</key>
 		<dict>
@@ -388,11 +388,15 @@
 		</dict>
 		<key>Headers/KL_JJZXLWaterSDK.h</key>
 		<data>
-		7ZuJJKHg22rv4z6dtImoz66Z4tU=
+		mmXhSGOoq4O14Iz/zJNFXFGupuQ=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		fUnvYXE/fDtf1GDfIoBEwkbZgqQ=
+		cTcGft9JWii4NSs0GFb27GUv9AA=
+		</data>
+		<key>KL_JJZXLHDConnectionSuccessfulVC.nib</key>
+		<data>
+		ynJ2gyMyNE6gqvyB7tNt0hdQ/7c=
 		</data>
 		<key>MLInputDodger.bundle/retract@2x.png</key>
 		<data>
@@ -413,11 +417,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7FOGueifVrDF91KxLim0pqxDIfw=
+			kptfrqeTOfL5qpt0vv851GtPo6s=
 			</data>
 			<key>hash2</key>
 			<data>
-			pWgvggDa8vCknQoYHmmGqHKsEFHJw100G4GBjElczQo=
+			QTe1vp8cI8B1QPjookJgBUeym+ntuUF2kg18EwFPzTw=
 			</data>
 		</dict>
 		<key>DateTools.bundle/am.lproj/DateTools.strings</key>
@@ -970,11 +974,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7ZuJJKHg22rv4z6dtImoz66Z4tU=
+			mmXhSGOoq4O14Iz/zJNFXFGupuQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			cic9MUcUWgdtVQYMZZm0eMDQ/JfL6g1eeazBbQud/dc=
+			RmY0YO1EQ/Oe8njahCkAdRkSDex2xNQKRmZteP6lzq4=
+			</data>
+		</dict>
+		<key>KL_JJZXLHDConnectionSuccessfulVC.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ynJ2gyMyNE6gqvyB7tNt0hdQ/7c=
+			</data>
+			<key>hash2</key>
+			<data>
+			9fm2LpokjL4nrCof5Bq53nWQ7lFFM5XyOzBdNKAlDPY=
 			</data>
 		</dict>
 		<key>MLInputDodger.bundle/retract@2x.png</key>

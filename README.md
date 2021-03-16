@@ -26,7 +26,7 @@
 /// @param IPAddress 服务器地址
 /// @param telPhone 账号
 /// @param mchId mchId
-/// @param getAdsViewCallBack controllerView当前控制的view   position 0 = 使用中 1 = 订单完成 deviceType  固定值：0公寓洗澡，2洗衣服，3饮水
+/// @param getAdsViewCallBack controllerView当前控制的view   position 0 = 使用中 1 = 订单完成 deviceType  固定值：0公寓洗澡，2洗衣服，3饮水，7吹风机
 +(void)useDevicePresentBUROVC:(UIViewController *)jumpVC devType:(NSInteger)devType IPAddress:(NSString *)IPAddress telPhone:(NSString *)telPhone mchId:(NSNumber *)mchId getAdsViewCallBack:(void(^)(UIView *controllerView,NSInteger position, NSInteger deviceType))getAdsViewCallBack;
 
 /// 监听广告点击回调  
@@ -34,7 +34,7 @@
 +(void)clickAdsCallBack:(void(^)(NSDictionary *adsDic))clickAdsCallBack;  
 
 /// 凯路sdk调用智校乐客户端支付  
-/// @param callBack  isPayEnough固定值：0-余额不足，1-余额充足  deviceType 固定值：0公寓洗澡，2洗衣服，3饮水  
+/// @param callBack  isPayEnough固定值：0-余额不足，1-余额充足  deviceType 固定值：0公寓洗澡，2洗衣服，3饮水，7吹风机  
 +(void)getPayCallBack:(void(^)(NSInteger isPayEnough, NSInteger deviceType))callBack;  
 /// 充值支付成功通知SDK  
 +(void)rechargePaySuccessful;  
