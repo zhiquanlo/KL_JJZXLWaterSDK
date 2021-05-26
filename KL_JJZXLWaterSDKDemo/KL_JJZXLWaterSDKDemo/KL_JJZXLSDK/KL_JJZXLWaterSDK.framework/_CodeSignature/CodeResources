@@ -388,15 +388,19 @@
 		</dict>
 		<key>Headers/KL_JJZXLWaterSDK.h</key>
 		<data>
-		mmXhSGOoq4O14Iz/zJNFXFGupuQ=
+		1p21juLG5Gsep8oMGfvnPRKSZkk=
 		</data>
 		<key>Info.plist</key>
 		<data>
 		cTcGft9JWii4NSs0GFb27GUv9AA=
 		</data>
+		<key>KL_JJZXLHDAlreadyBindingVC.nib</key>
+		<data>
+		Rt1jEHdIgj/MMQY04CIvkx0fqt0=
+		</data>
 		<key>KL_JJZXLHDConnectionSuccessfulVC.nib</key>
 		<data>
-		giFuLDV5yRTjB6Srh2Cd4okBTHg=
+		vd4zqKLA/PmcrPjUdhL+Tui8XBo=
 		</data>
 		<key>MLInputDodger.bundle/retract@2x.png</key>
 		<data>
@@ -974,22 +978,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mmXhSGOoq4O14Iz/zJNFXFGupuQ=
+			1p21juLG5Gsep8oMGfvnPRKSZkk=
 			</data>
 			<key>hash2</key>
 			<data>
-			RmY0YO1EQ/Oe8njahCkAdRkSDex2xNQKRmZteP6lzq4=
+			oxKR3eicoLDuBao88C0RQXjp35rKTC1Yz3TrgmcmDGI=
+			</data>
+		</dict>
+		<key>KL_JJZXLHDAlreadyBindingVC.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Rt1jEHdIgj/MMQY04CIvkx0fqt0=
+			</data>
+			<key>hash2</key>
+			<data>
+			Q7ZWy3504OYlz0rOOgP8GMx8T0Zd8OQZw1j7Wo0Nghk=
 			</data>
 		</dict>
 		<key>KL_JJZXLHDConnectionSuccessfulVC.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			giFuLDV5yRTjB6Srh2Cd4okBTHg=
+			vd4zqKLA/PmcrPjUdhL+Tui8XBo=
 			</data>
 			<key>hash2</key>
 			<data>
-			xxOQ12PBZV+FRA00gieLbvgYTxvmz0LWedeMW8jKXKI=
+			M2/71evfZV2dCvr54lC1++2n4vCt5ko72I4QKsBcfsQ=
 			</data>
 		</dict>
 		<key>MLInputDodger.bundle/retract@2x.png</key>

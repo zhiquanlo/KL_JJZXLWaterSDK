@@ -39,6 +39,8 @@
 /// @param isPassword 是否需要密码
 /// @param trade_id 业务订单号
 +(void)verifyBackWithStatus:(BOOL)success isPassword:(BOOL)isPassword tradeId:(NSString*)trade_id;
+/**获取版本号*/
++(NSString *)getVersion;
 @end
 
 
