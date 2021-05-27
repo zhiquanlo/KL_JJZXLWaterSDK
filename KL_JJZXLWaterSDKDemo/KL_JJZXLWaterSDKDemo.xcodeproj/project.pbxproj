@@ -15,6 +15,7 @@
 		45C2C2C824BC8A710092824A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45C2C2C724BC8A710092824A /* Assets.xcassets */; };
 		45C2C2CB24BC8A710092824A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45C2C2C924BC8A710092824A /* LaunchScreen.storyboard */; };
 		45C2C2CE24BC8A710092824A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C2C2CD24BC8A710092824A /* main.m */; };
+		49EDAC6AE6A661181E31BB7A /* libPods-KL_JJZXLWaterSDKDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 96DA5ECE0E4E4A6535AA3C7B /* libPods-KL_JJZXLWaterSDKDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		45C2C2CC24BC8A710092824A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45C2C2CD24BC8A710092824A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		915635117BEDD7EBCAC6ABE6 /* Pods-KL_JJZXLWaterSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KL_JJZXLWaterSDKDemo.release.xcconfig"; path = "Target Support Files/Pods-KL_JJZXLWaterSDKDemo/Pods-KL_JJZXLWaterSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
+		96DA5ECE0E4E4A6535AA3C7B /* libPods-KL_JJZXLWaterSDKDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KL_JJZXLWaterSDKDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4560A8A6265B81AD0082C497 /* KL_JJZXLWaterSDK.framework in Frameworks */,
+				49EDAC6AE6A661181E31BB7A /* libPods-KL_JJZXLWaterSDKDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +105,7 @@
 		A92AA2E71AE664FB3A40AD28 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				96DA5ECE0E4E4A6535AA3C7B /* libPods-KL_JJZXLWaterSDKDemo.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
